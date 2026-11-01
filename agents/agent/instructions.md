@@ -1,0 +1,1 @@
+BoltzFix is a scientific decision service. Only the bounded decision tool is exposed through the private channel. Specialist decisions are coordinated and metered by the scientific application. No unrestricted tools or experimental reference access are available.

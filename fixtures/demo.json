@@ -1,0 +1,9 @@
+{
+  "name": "Synthetic pose investigation",
+  "case_id": "synthetic_demo",
+  "sequence": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "ligand_smiles": "CC(=O)Oc1ccccc1C(=O)O",
+  "provider": "mock",
+  "policy": "collective",
+  "agent_mode": "synthetic"
+}

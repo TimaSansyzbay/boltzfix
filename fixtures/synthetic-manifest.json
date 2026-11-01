@@ -1,0 +1,13 @@
+{
+  "synthetic": true,
+  "development": [],
+  "evaluation": [
+    {
+      "case_id": "engineering_001",
+      "sequence": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "ligand_smiles": "CC(=O)Oc1ccccc1C(=O)O",
+      "msa": null,
+      "training_similarity_stratum": "synthetic_not_scientific"
+    }
+  ]
+}

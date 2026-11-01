@@ -1,0 +1,56 @@
+{
+  "run": {
+    "id": "run-test",
+    "status": "completed",
+    "synthetic": true,
+    "selection": {
+      "candidate_id": "candidate-test",
+      "artifact_hashes": {
+        "protein": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "ligand": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      "config_hash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+      "selector_version": "validity-clashes-confidence-v1",
+      "physical_valid": true,
+      "limitations": ["Synthetic fixture"],
+      "frozen_at": "2026-10-31T22:00:00+00:00"
+    }
+  },
+  "evaluation": {
+    "schema_version": "evaluation-v1",
+    "run_id": "run-test",
+    "synthetic": true,
+    "selection_receipt_hash": "22656edda9fe246c9dd2d64ee7f7b65385f10a68250a7d2c225e6251a2527574",
+    "selected": {
+      "candidate_id": "candidate-test",
+      "ligand_rmsd": 0.2,
+      "protein_ca_rmsd": 0.1,
+      "primary_success": true,
+      "accuracy_success": true
+    }
+  },
+  "failure_run": {
+    "id": "run-test",
+    "status": "completed",
+    "synthetic": true,
+    "selection": {
+      "candidate_id": null,
+      "artifact_hashes": {},
+      "config_hash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+      "selector_version": "validity-clashes-confidence-v1",
+      "physical_valid": false,
+      "limitations": ["No eligible pose; displacement >2 \u00c5."],
+      "frozen_at": "2026-10-31T22:00:00+00:00"
+    }
+  },
+  "failure_evaluation": {
+    "schema_version": "evaluation-v1",
+    "run_id": "run-test",
+    "synthetic": true,
+    "selection_receipt_hash": "be408f5bb22781e26d18416e4faf2818367a442f8563a1386bf8102030ec49a1",
+    "selected": {
+      "primary_success": false,
+      "accuracy_success": false
+    }
+  }
+}

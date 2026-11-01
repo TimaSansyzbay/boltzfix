@@ -1,0 +1,12 @@
+**/node_modules
+**/.venv
+**/.eve
+**/.output
+**/dist
+**/__pycache__
+**/.pytest_cache
+**/.boltzfix
+**/test-results
+**/*.egg-info
+**/.env*
+reference-vault
